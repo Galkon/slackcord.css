@@ -832,7 +832,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { color: #949494 !important; }
 
-.c-message { margin: 8px 0 }
+/*.c-message { margin: 2px 0 }*/
 
 .c-message:hover .c-message__broadcast_preamble_outer, .c-message:hover .c-message__broadcast_preamble { color: #949494; }
 
@@ -4070,3 +4070,7 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .c-avatar__image { border-radius: 50%; }
 
 #team_menu:after { border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+
+.c-message__content:before { padding-top: 12px; }
+
+.c-message__label__gutter { padding-top: 11px; }
