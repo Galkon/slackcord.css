@@ -7,7 +7,7 @@ A dark themed slack stylesheet.
 Best used with the following Sidebar Theme settings:
 
 ```
-#2e3136,#282b30,#282b30,#ffffff,#282b30,#818386,#43b581,#7289da
+#2f3136,#42464D,#3a3d42,#f6f6f7,#3A3D42,#969ba3,#43b581,#f04747
 ```
 
 ## Installation
