@@ -34,3 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 });
 ```
+
+:warning: WARNING: This will request the compiled CSS file from this repository.
+You are strongly discouraged from using a remote CSS file that is not under your
+control. It's recommended that you create your own copy. An XSS attack could put
+your Slack client at risk.
