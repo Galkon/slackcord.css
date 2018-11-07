@@ -868,7 +868,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__broadcast_preamble_outer, .c-message__broadcast_preamble { color: #949494; }
 
-.c-message__sender { color: #e6e6e6; padding-top: 12px; border-top: 1px solid rgba(0, 0, 0, 0.05); }
+.c-message__sender { color: #e6e6e6; padding-top: 16px; border-top: 1px solid rgba(0, 0, 0, 0.05); }
 
 .c-message__sender a { color: #e6e6e6; }
 
