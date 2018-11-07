@@ -2021,9 +2021,9 @@ html.no_touch a.filetype_button_web:hover .file_title { color: #e6e6e6; }
 
 a.internal_member_link { background: #2f3135; color: #e6e6e6; }
 
-a.c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link { background: #4a433c; border: none; border-left: 2px solid #faa61a; color: #e6e6e6; }
+a.c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link { background: #3c404e; border: none; color: #7289da; }
 
-a.c-member_slug.active, a.c-member_slug:hover, .c-member_slug--link.active, .c-member_slug--link:hover, .c-mrkdwn__subteam--link.active, .c-mrkdwn__subteam--link:hover { color: #e6e6e6; }
+a.c-member_slug.active, a.c-member_slug:hover, .c-member_slug--link.active, .c-member_slug--link:hover, .c-mrkdwn__subteam--link.active, .c-mrkdwn__subteam--link:hover { background: #7289da; color: #e6e6e6; }
 
 .mention_rxn .mention_rxn_summary { color: #e6e6e6; }
 
@@ -4077,4 +4077,4 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .msg_input_wrapper { margin-top: 22px; }
 
-#footer.footer_msg_input { border-top: 1px solid rgba(255, 255, 255, 0.05); }
+#footer_msgs { border-top: 1px solid rgba(255, 255, 255, 0.05); }
