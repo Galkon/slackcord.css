@@ -4099,16 +4099,18 @@ a.c-member_slug--mention:hover { background-color: #4a433c; color: #7289da; text
 
 .menu ul li.highlighted a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) { background: rgba(255, 255, 255, 0.025); }
 
-.c-reaction, .c-reaction:hover { background: #3e4147; border: none; font-size: 14px; font-weight: 600; border-radius: 3px; padding: 4px 10px; }
+.c-reaction { background: #3e4147; border: none; font-size: 14px; font-weight: 600; border-radius: 3px; padding: 4px 10px; }
 
-.c-reaction .c-reaction__count { color: #75777b !important; padding: 0 1px 0 3px; margin-left: 8px; }
+.c-reaction .c-reaction__count { color: #75777b; padding: 0 1px 0 3px; margin-left: 8px; }
 
-.c-reaction .c-reaction--reacted, .c-reaction .c-reaction--reacted:hover { background-color: #41485b; border: none; }
+.c-reaction .c-reaction--reacted { background-color: #41485b; border: none; }
 
-.c-reaction .c-reaction--reacted .c-reaction__count { color: #7289da !important; }
+.c-reaction .c-reaction--reacted .c-reaction__count { color: #7289da; }
 
 .ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover { border: none; box-shadow: none; }
 
-.c-search__input_box .c-search__input_box__input { height: 28px; background: transparent; border: none; }
+.c-search__input_box .c-search__input_box__input { height: 28px; }
 
-.ql-editor .ql-blank { padding: 2px 0; }
+.ql-editor.ql-blank { padding: 2px 0; }
+
+.c-menu { box-shadow: 0 0 2px 10px rgba(0, 0, 0, 0.025); background-color: #36393f; border-radius: 6px; }
