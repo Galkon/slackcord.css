@@ -4113,4 +4113,8 @@ a.c-member_slug--mention:hover { background-color: #4a433c; color: #7289da; text
 
 .ql-editor.ql-blank { padding: 2px 0; }
 
-.c-menu { box-shadow: 0 0 2px 10px rgba(0, 0, 0, 0.025); background-color: #36393f; border-radius: 6px; }
+.c-menu { background-color: #36393f; border-radius: 6px; }
+
+.c-menu_item__button, .c-menu_item__button:link, .c-menu_item__button:visited { color: #e6e6e6; }
+
+.c-menu_item__button:hover { background: rgba(255, 255, 255, 0.025); color: #fff; }
