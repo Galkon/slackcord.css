@@ -870,7 +870,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__broadcast_preamble_outer, .c-message__broadcast_preamble { color: #949494; }
 
-.c-message__sender { color: #f3f3f3; font-weight: 600; }
+.c-message__sender { color: #f3f3f3; font-weight: 700; }
 
 .c-message__sender a { color: #f3f3f3; }
 
@@ -4083,6 +4083,10 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .c-message__content_header { margin: 9px 0 -2px }
 
-a.c-member_slug--mention { background-color: #4a433c; border: none; border-left: 4px solid #faa61a; border-top-left-radius: 4px; border-bottom-left-radius: 4px; color: #7289da; padding-left: 5px; }
+a.c-member_slug--mention { background-color: #4a433c; border: none; border-left: 4px solid #faa61a; border-top-left-radius: 3px; border-bottom-left-radius: 3px; color: #7289da; padding-left: 4px; padding-top: 2px; padding-bottom: 2px; }
 
 a.c-member_slug--mention:hover { text-decoration: underline; }
+
+.c-message_list__day_divider__line { border-top-color: rgba(255, 255, 255, 0.05); }
+
+.c-message_list__day_divider__label__pill { color: #67727a; }
