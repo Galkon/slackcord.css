@@ -2433,19 +2433,19 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #484b51; box-shad
 
 .current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: #949494; }
 
-.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: #2f3135; border: 1px solid #484b51; }
+/*.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: #2f3135; border: 1px solid #484b51; }*/
 
-.rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: #424242; }
+/*.rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: #424242; }*/
 
-.rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count, .c-reaction.active .emoji_rxn_count, .c-reaction:hover .emoji_rxn_count, .c-reaction_add.active .emoji_rxn_count, .c-reaction_add:hover .emoji_rxn_count, .c-member_slug.active .emoji_rxn_count, .c-member_slug:hover .emoji_rxn_count { color: #e6e6e6; }
+/*.rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count, .c-reaction.active .emoji_rxn_count, .c-reaction:hover .emoji_rxn_count, .c-reaction_add.active .emoji_rxn_count, .c-reaction_add:hover .emoji_rxn_count, .c-member_slug.active .emoji_rxn_count, .c-member_slug:hover .emoji_rxn_count { color: #e6e6e6; }*/
 
-.rxn.c-reaction--reacted, .c-reaction.c-reaction--reacted, .c-reaction_add.c-reaction--reacted, .c-member_slug.c-reaction--reacted { background-color: rgba(66, 66, 66, 0.08); border-color: rgba(130, 130, 130, 0.4) !important; }
+/*.rxn.c-reaction--reacted, .c-reaction.c-reaction--reacted, .c-reaction_add.c-reaction--reacted, .c-member_slug.c-reaction--reacted { background-color: rgba(66, 66, 66, 0.08); border-color: rgba(130, 130, 130, 0.4) !important; }*/
 
-.rxn.c-reaction--reacted .emoji_rxn_count, .rxn.c-reaction--reacted .c-reaction__count, .c-reaction.c-reaction--reacted .emoji_rxn_count, .c-reaction.c-reaction--reacted .c-reaction__count, .c-reaction_add.c-reaction--reacted .emoji_rxn_count, .c-reaction_add.c-reaction--reacted .c-reaction__count, .c-member_slug.c-reaction--reacted .emoji_rxn_count, .c-member_slug.c-reaction--reacted .c-reaction__count { color: #e6e6e6; }
+/*.rxn.c-reaction--reacted .emoji_rxn_count, .rxn.c-reaction--reacted .c-reaction__count, .c-reaction.c-reaction--reacted .emoji_rxn_count, .c-reaction.c-reaction--reacted .c-reaction__count, .c-reaction_add.c-reaction--reacted .emoji_rxn_count, .c-reaction_add.c-reaction--reacted .c-reaction__count, .c-member_slug.c-reaction--reacted .emoji_rxn_count, .c-member_slug.c-reaction--reacted .c-reaction__count { color: #e6e6e6; }*/
 
-.rxn .emoji_rxn_count, .rxn .c-reaction__count, .c-reaction .emoji_rxn_count, .c-reaction .c-reaction__count, .c-reaction_add .emoji_rxn_count, .c-reaction_add .c-reaction__count, .c-member_slug .emoji_rxn_count, .c-member_slug .c-reaction__count { color: #e6e6e6; }
+/*.rxn .emoji_rxn_count, .rxn .c-reaction__count, .c-reaction .emoji_rxn_count, .c-reaction .c-reaction__count, .c-reaction_add .emoji_rxn_count, .c-reaction_add .c-reaction__count, .c-member_slug .emoji_rxn_count, .c-member_slug .c-reaction__count { color: #e6e6e6; }*/
 
-.rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(230, 230, 230, 0.25); }
+/*.rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(230, 230, 230, 0.25); }*/
 
 .modal { background-color: #36393f; border: 0; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
 
@@ -4103,6 +4103,6 @@ a.c-member_slug--mention:hover { background-color: #4a433c; color: #7289da; text
 
 .c-reaction .c-reaction__count { color: #75777b; padding: 0 1px 0 3px; margin-left: 8px; }
 
-.c-reaction .c-reaction--reacted { background-color: #41485b; border: none; }
+.c-reaction .c-reaction--reacted, .c-reaction--reacted:hover { background-color: #41485b; border: none; }
 
 .c-reaction .c-reaction--reacted .c-reaction__count { color: #7289da; }
