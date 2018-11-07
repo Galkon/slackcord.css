@@ -1,10 +1,10 @@
-body { background: #222; color: #e6e6e6; }
+body { background: #36393f; color: #dcddde; }
 
-a { color: #949494; }
+a { color: #0096cf; }
 
-a:link, a:visited { color: #949494; }
+a:link, a:visited { color: #0096cf; }
 
-a:hover, a:active, a:focus { color: #c7c7c7; }
+a:hover, a:active, a:focus { text-decoration: underline; }
 
 hr { border-bottom: 1px solid #424242; border-top: 1px solid #222; }
 
