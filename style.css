@@ -4093,10 +4093,16 @@ a.c-member_slug--mention:hover { background-color: #4a433c; color: #7289da; text
 
 /*.p-channel_sidebar__channel { color: #72767d; }*/
 
-#client_body:before { box-shadow: none; }
+#client_body::before { box-shadow: none; }
 
 .channel_header_icon { color: #afb0b2; }
 
 .menu ul li.highlighted a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) { background: rgba(255, 255, 255, 0.025); }
 
-.c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * { color: #e6e6e6; }
+.c-reaction, .c-reaction:hover { background: #3e4147; border: none; font-size: 14px; font-weight: 600; border-radius: 3px; padding: 4px 12px; }
+
+.c-reaction .c-reaction__count { color: #75777b; padding: 0 1px 0 3px; margin-left: 8px; }
+
+.c-reaction--reacted { background-color: #41485b; border: none; }
+
+.c-reaction--reacted .c-reaction__count { color: #7289da; }
