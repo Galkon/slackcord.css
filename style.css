@@ -874,7 +874,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__sender .c-emoji__text_mode_icon { color: #949494; }
 
-.c-message__body { color: #e6e6e6; }
+.c-message__body { color: #e6e6e6; border-top: 1px solid rgba(255, 255, 255, 0.05); }
 
 .c-message__body--unknown { background: rgba(84, 84, 84, 0.1); }
 
