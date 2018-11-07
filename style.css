@@ -4099,10 +4099,10 @@ a.c-member_slug--mention:hover { background-color: #4a433c; color: #7289da; text
 
 .menu ul li.highlighted a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) { background: rgba(255, 255, 255, 0.025); }
 
-.c-reaction, .c-reaction:hover { background: #3e4147; border: none; font-size: 14px; font-weight: 600; border-radius: 3px; padding: 4px 12px; }
+.c-reaction, .c-reaction:hover { background: #3e4147; border: none; font-size: 14px; font-weight: 600; border-radius: 3px; padding: 4px 10px; }
 
 .c-reaction .c-reaction__count { color: #75777b; padding: 0 1px 0 3px; margin-left: 8px; }
 
-.c-reaction--reacted { background-color: #41485b; border: none; }
+.c-reaction .c-reaction--reacted { background-color: #41485b; border: none; }
 
-.c-reaction--reacted .c-reaction__count { color: #7289da; }
+.c-reaction .c-reaction--reacted .c-reaction__count { color: #7289da; }
