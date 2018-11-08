@@ -4126,3 +4126,6 @@ a.c-member_slug--mention:hover { background-color: #4a433c; color: #7289da; text
 #fs_modal_bg.active, .fs_modal_bg.active { background: rgba(0, 0, 0, 0.8); }
 
 .tab_complete_ui .tab_complete_ui_header { background: padding-box #2f3136; border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: #e6e6e6 !important; }
+
