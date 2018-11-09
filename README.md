@@ -39,3 +39,17 @@ document.addEventListener('DOMContentLoaded', function() {
 You are strongly discouraged from using a remote CSS file that is not under your
 control. It's recommended that you create your own copy. An XSS attack could put
 your Slack client at risk.
+
+## Known Issues
+
+There are many problem areas still, but the basic chat experience is pretty smooth. If you feel like contributing, just use Chrome developer tools to alter the CSS and copy that over and make a pull request.
+
+Components not yet optimized for slackcord theme:
+
+* Modals
+* Context menus
+* Settings
+* Dropdown inputs
+* Rich embeds
+* Search
+* Right sidebar
